@@ -1,0 +1,820 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AboutUs component should match snapshot 1`] = `
+<div
+  className="aboutUsPage"
+>
+  <div>
+    <div
+      className="navBar"
+      data-testid="navbar"
+    >
+      <div
+        className="leftNav"
+      >
+        <img
+          alt="Logo"
+          className="leftImage"
+          onClick={[Function]}
+          src="https://i.imgur.com/AHFcYv1.png"
+        />
+      </div>
+      <div
+        className="spacer"
+      />
+      <div
+        className="middleNeighbor"
+      >
+        <img
+          alt="Neighbor"
+          className="siteFontLogo"
+          src="https://i.imgur.com/pD5v9ZC.png"
+        />
+      </div>
+      <div
+        className="spacer"
+      />
+      <div
+        className="rightNav"
+      >
+        <img
+          alt="Team"
+          className="teamImage"
+          onClick={[Function]}
+          src="https://i.imgur.com/FFrUPpK.png"
+        />
+        |
+         
+        <img
+          alt="About Neighbors"
+          className="aboutNeighborImage"
+          onClick={[Function]}
+          src="https://i.imgur.com/su5pf5g.png"
+        />
+        |
+         
+        <img
+          alt="User Information"
+          className="userInfo"
+          onClick={[Function]}
+          src="https://i.imgur.com/VWTc4IU.png"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="aboutUsContainer"
+  >
+    <div
+      className="aboutUsTextContainer"
+    >
+      <img
+        id="aboutUsLogo"
+        src="https://i.imgur.com/UWrIPFU.png"
+      />
+      <br />
+      <br />
+      <p>
+        Welcome to Neighbor! We are an online platform that bridges the gap between shoppers and their local businesses. Our mission is to make it easier for people to discover and support their local businesses, while also providing a convenient shopping experience. We have an extensive directory of local merchants, offering a variety of goods and services. Whether you are looking for a unique gift, a special treat, or a one-of-a-kind item, you will be sure to find it on Neighbor. With special discounts, promotions, and offers, Neighbor is the perfect solution for all of your shopping needs. Shop local and support your community today! 
+        <br />
+         
+        <br />
+        Shopping at small businesses is important because it helps to strengthen local economies and create jobs. Small businesses are often the backbone of communities, providing goods and services that may not be available from larger retailers. Shopping at small businesses also helps to keep money in the local economy, since small businesses are more likely to reinvest their profits in the local economy. Additionally, small businesses often offer unique and personalized products and services that cannot be found elsewhere.
+        <br />
+         
+        <br />
+        Sign up with Neighbor and start supporting your community today.
+      </p>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CreateAcct component matches the snapshot 1`] = `
+<div>
+  <div
+    className="navBar"
+    data-testid="navbar"
+  >
+    <div
+      className="leftNav"
+    >
+      <img
+        alt="Logo"
+        className="leftImage"
+        onClick={[Function]}
+        src="https://i.imgur.com/AHFcYv1.png"
+      />
+    </div>
+    <div
+      className="spacer"
+    />
+    <div
+      className="middleNeighbor"
+    >
+      <img
+        alt="Neighbor"
+        className="siteFontLogo"
+        src="https://i.imgur.com/pD5v9ZC.png"
+      />
+    </div>
+    <div
+      className="spacer"
+    />
+    <div
+      className="rightNav"
+    >
+      <img
+        alt="Team"
+        className="teamImage"
+        onClick={[Function]}
+        src="https://i.imgur.com/FFrUPpK.png"
+      />
+      |
+       
+      <img
+        alt="About Neighbors"
+        className="aboutNeighborImage"
+        onClick={[Function]}
+        src="https://i.imgur.com/su5pf5g.png"
+      />
+      |
+       
+      <img
+        alt="User Information"
+        className="userInfo"
+        onClick={[Function]}
+        src="https://i.imgur.com/VWTc4IU.png"
+      />
+    </div>
+  </div>
+  <div>
+    <h2
+      className="createAccount"
+    >
+      creating an account is easy
+    </h2>
+  </div>
+  <div
+    className="loginContainer"
+  >
+    <div
+      className="consMerchContainer"
+    >
+      <section
+        className="formSection"
+      >
+        <div
+          className="userAlignment"
+        >
+          <strong>
+            User
+          </strong>
+        </div>
+        <br />
+        <form
+          action="http://localhost:3000/createUser"
+          method="POST"
+        >
+          <label
+            htmlFor="firstName"
+          >
+            First Name: 
+          </label>
+          <input
+            id="firstName"
+            name="firstName"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="lastName"
+          >
+            Last Name: 
+          </label>
+          <input
+            id="lastName"
+            name="lastName"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="email"
+          >
+            Email: 
+          </label>
+          <input
+            id="email"
+            name="email"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="password"
+          >
+            Password: 
+          </label>
+          <input
+            id="password"
+            name="password"
+            type="password"
+          />
+          <br />
+          <label
+            htmlFor="zipCode"
+          >
+            Zip Code: 
+          </label>
+          <input
+            id="zipCode"
+            name="zipCode"
+            type="text"
+          />
+          <br />
+          <input
+            id="formButton"
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </section>
+      <div
+        className="merchantLogin"
+      >
+        <div
+          className="merchantAlignment"
+        >
+          <strong>
+            Merchant
+          </strong>
+        </div>
+        <br />
+        <form
+          action="http://localhost:3000/createMerchant"
+          method="post"
+        >
+          <label
+            htmlFor="merchantEmail"
+          >
+            Email: 
+          </label>
+          <input
+            id="merchantEmail"
+            name="merchantEmail"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="merchantPassword"
+          >
+            Password: 
+          </label>
+          <input
+            id="merchantPassword"
+            name="merchantPassword"
+            type="password"
+          />
+          <br />
+          <label
+            htmlFor="merchantName"
+          >
+            Business Name: 
+          </label>
+          <input
+            id="merchantName"
+            name="merchantName"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="typeOfMerchant"
+          >
+            Business Type: 
+          </label>
+          <input
+            id="typeOfMerchant"
+            name="typeOfMerchant"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="merchantAddress"
+          >
+             Address: 
+          </label>
+          <input
+            id="merchantAddress"
+            name="merchantAddress"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="merchantZipCode"
+          >
+            Zip Code: 
+          </label>
+          <input
+            id="merchantZipCode"
+            name="merchantZipCode"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="description"
+          >
+            Description: 
+          </label>
+          <input
+            id="description"
+            name="description"
+            type="text"
+          />
+          <br />
+          <label
+            htmlFor="image"
+          >
+            Image: 
+          </label>
+          <input
+            id="image"
+            name="image"
+            type="text"
+          />
+          <br />
+          <input
+            id="formButton"
+            type="submit"
+            value="submit"
+          />
+          <br />
+          <br />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Homepage component matches the snapshot 1`] = `
+<div
+  className="homeContainer"
+  data-testid="homeContainer"
+>
+  <div
+    className="leftInterface"
+  >
+    <img
+      alt="shops"
+      className="leftImage"
+      src="https://i.imgur.com/2fgUkIk.png"
+    />
+  </div>
+  <div
+    className="middleInterface"
+  >
+    <img
+      alt="shop-logo"
+      className="middleImage"
+      src="https://i.imgur.com/AHFcYv1.png"
+    />
+    <img
+      alt="Neighbor"
+      className="neighborImage"
+      src="https://i.imgur.com/pD5v9ZC.png"
+    />
+    <h2>
+      "The go to source for small businesses in your neighborhood."
+    </h2>
+    <h2
+      className="quoteSource"
+    >
+      -Mr. Rogers
+    </h2>
+    <div>
+      <img
+        alt="login"
+        className="loginImage"
+        onClick={[Function]}
+        src="https://i.imgur.com/rvjQK1R.png"
+      />
+    </div>
+    <div>
+      <img
+        alt="create account"
+        className="createAccountImage"
+        onClick={[Function]}
+        src="https://i.imgur.com/hpMvW3E.png"
+      />
+    </div>
+  </div>
+  <div
+    className="rightInterface"
+  >
+    <img
+      alt="shops"
+      className="rightImage"
+      src="https://i.imgur.com/4rNsynC.jpg"
+    />
+  </div>
+</div>
+`;
+
+exports[`LoginPage component should match snapshot 1`] = `
+<div>
+  <div
+    className="navBar"
+    data-testid="navbar"
+  >
+    <div
+      className="leftNav"
+    >
+      <img
+        alt="Logo"
+        className="leftImage"
+        onClick={[Function]}
+        src="https://i.imgur.com/AHFcYv1.png"
+      />
+    </div>
+    <div
+      className="spacer"
+    />
+    <div
+      className="middleNeighbor"
+    >
+      <img
+        alt="Neighbor"
+        className="siteFontLogo"
+        src="https://i.imgur.com/pD5v9ZC.png"
+      />
+    </div>
+    <div
+      className="spacer"
+    />
+    <div
+      className="rightNav"
+    >
+      <img
+        alt="Team"
+        className="teamImage"
+        onClick={[Function]}
+        src="https://i.imgur.com/FFrUPpK.png"
+      />
+      |
+       
+      <img
+        alt="About Neighbors"
+        className="aboutNeighborImage"
+        onClick={[Function]}
+        src="https://i.imgur.com/su5pf5g.png"
+      />
+      |
+       
+      <img
+        alt="User Information"
+        className="userInfo"
+        onClick={[Function]}
+        src="https://i.imgur.com/VWTc4IU.png"
+      />
+    </div>
+  </div>
+  <div>
+    <h2
+      className="login"
+    >
+      LoginUniqueWord
+    </h2>
+  </div>
+  <div
+    className="loginContainer"
+  >
+    <div
+      className="consMerchContainer"
+    >
+      <div
+        className="userLogin"
+      >
+        <div
+          className="userAlignment"
+        >
+          <strong>
+            User
+          </strong>
+        </div>
+        <br />
+        <form
+          action="http://localhost:3000/userLogin"
+          className="userForm"
+          method="post"
+        >
+          <div
+            className="userLogin"
+          >
+            <label
+              htmlFor="email"
+            >
+              Email: 
+            </label>
+            <input
+              id="email"
+              name="email"
+              type="text"
+            />
+          </div>
+          <div
+            className="userPW"
+          >
+            <label
+              htmlFor="password"
+            >
+              Password: 
+            </label>
+            <input
+              id="password"
+              name="password"
+              type="password"
+            />
+          </div>
+          <input
+            id="formButton"
+            name="userSubmit"
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </div>
+      <div
+        className="merchantLogin"
+      >
+        <div
+          className="merchantAlignment"
+        >
+          <strong>
+            Merchant
+          </strong>
+        </div>
+        <br />
+        <form
+          action="http://localhost:3000/merchantLogin"
+          className="merchantForm"
+          method="post"
+        >
+          <div
+            className="merchantUsername"
+          >
+            <label
+              htmlFor="memail"
+            >
+              Email: 
+            </label>
+            <input
+              id="memail"
+              name="memail"
+              type="text"
+            />
+          </div>
+          <div
+            className="merchantPassword"
+          >
+            <label
+              htmlFor="mpassword"
+            >
+              Password: 
+            </label>
+            <input
+              id="mpassword"
+              name="mpassword"
+              type="password"
+            />
+          </div>
+          <input
+            id="merchantFormButton"
+            type="submit"
+            value="submit"
+          />
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`NavBar component matches the snapshot 1`] = `
+<div
+  className="navBar"
+  data-testid="navbar"
+>
+  <div
+    className="leftNav"
+  >
+    <img
+      alt="Logo"
+      className="leftImage"
+      onClick={[Function]}
+      src="https://i.imgur.com/AHFcYv1.png"
+    />
+  </div>
+  <div
+    className="spacer"
+  />
+  <div
+    className="middleNeighbor"
+  >
+    <img
+      alt="Neighbor"
+      className="siteFontLogo"
+      src="https://i.imgur.com/pD5v9ZC.png"
+    />
+  </div>
+  <div
+    className="spacer"
+  />
+  <div
+    className="rightNav"
+  >
+    <img
+      alt="Team"
+      className="teamImage"
+      onClick={[Function]}
+      src="https://i.imgur.com/FFrUPpK.png"
+    />
+    |
+     
+    <img
+      alt="About Neighbors"
+      className="aboutNeighborImage"
+      onClick={[Function]}
+      src="https://i.imgur.com/su5pf5g.png"
+    />
+    |
+     
+    <img
+      alt="User Information"
+      className="userInfo"
+      onClick={[Function]}
+      src="https://i.imgur.com/VWTc4IU.png"
+    />
+  </div>
+</div>
+`;
+
+exports[`Team component matches the snapshot 1`] = `
+<div
+  className="teamPage"
+  data-testid="team"
+>
+  <div>
+    <div
+      className="navBar"
+      data-testid="navbar"
+    >
+      <div
+        className="leftNav"
+      >
+        <img
+          alt="Logo"
+          className="leftImage"
+          onClick={[Function]}
+          src="https://i.imgur.com/AHFcYv1.png"
+        />
+      </div>
+      <div
+        className="spacer"
+      />
+      <div
+        className="middleNeighbor"
+      >
+        <img
+          alt="Neighbor"
+          className="siteFontLogo"
+          src="https://i.imgur.com/pD5v9ZC.png"
+        />
+      </div>
+      <div
+        className="spacer"
+      />
+      <div
+        className="rightNav"
+      >
+        <img
+          alt="Team"
+          className="teamImage"
+          onClick={[Function]}
+          src="https://i.imgur.com/FFrUPpK.png"
+        />
+        |
+         
+        <img
+          alt="About Neighbors"
+          className="aboutNeighborImage"
+          onClick={[Function]}
+          src="https://i.imgur.com/su5pf5g.png"
+        />
+        |
+         
+        <img
+          alt="User Information"
+          className="userInfo"
+          onClick={[Function]}
+          src="https://i.imgur.com/VWTc4IU.png"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    className="allTeamPhotos"
+  >
+    <div
+      className="zach"
+    >
+      <img
+        className="teamPhoto"
+        src="https://i.imgur.com/A0Q4L5l.png"
+      />
+      <div
+        className="teamText"
+      >
+        <p>
+          Zach Hall 
+          <br />
+          <br />
+          Network Ninja
+        </p>
+        <a
+          href="https://github.com/zachh85"
+        >
+          Github
+        </a>
+      </div>
+    </div>
+    <div
+      className="chase"
+    >
+      <img
+        className="teamPhoto"
+        src="https://i.imgur.com/kXsSP3w.png"
+      />
+      <div
+        className="teamText"
+      >
+        <p>
+          Chase Benjamin 
+          <br />
+          <br />
+          Digital Data Detective
+        </p>
+        <a
+          href="https://github.com/chasebenj"
+        >
+          Github
+        </a>
+      </div>
+    </div>
+    <div
+      className="danny"
+    >
+      <img
+        className="teamPhoto"
+        src="https://i.imgur.com/5JzRNX2.png"
+      />
+      <div
+        className="teamText"
+      >
+        <p>
+          Danny Zheng 
+          <br />
+          <br />
+          Automation Wizard
+        </p>
+        <a
+          href="https://github.com/dannyzheng159"
+        >
+          Github
+        </a>
+      </div>
+    </div>
+    <div
+      className="sakura"
+    >
+      <img
+        className="teamPhoto"
+        src="https://i.imgur.com/DHJlkOx.png"
+      />
+      <div
+        className="teamText"
+      >
+        <p>
+          Sakura Akiyama-Bowden 
+          <br />
+          <br />
+          Server Wrangler
+        </p>
+        <a
+          href="https://github.com/sakurakiyama"
+        >
+          Github
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
