@@ -7,9 +7,7 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 const cookieParser = require('cookie-parser');
 
-const MONGO_URI = "mongodb+srv://codesmithsolo:Zd93B5CVeAleZr2o@cluster0.dzsod2o.mongodb.net/?retryWrites=true&w=majority";
-  // 'mongodb+srv://dangernoodles:V7ffVtFnMNGR4W8g@cluster0.yjnm2wn.mongodb.net/?retryWrites=true&w=majority';
-
+const MONGO_URI = 'null' // !! add uri here
 // this connects our mongo database to our server
 mongoose
   .connect(MONGO_URI, {
